@@ -8,7 +8,7 @@ const Home = () => {
         <img
           src="Image3.png"
           className="Image3.png" 
-          alt="Background"
+          alt="Background" width='100%'
           style={{ height: '500px', objectFit: 'cover', backgroundSize:'cover' }} // Ensure the image covers the card area
         />
         <div className="card-img-overlay d-flex flex-column justify-content-center">

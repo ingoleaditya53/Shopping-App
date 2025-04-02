@@ -1,12 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-secondary text-white p-2 fixed-top">
       <div className="container-fluid">
-        {/* <h1 className="navbar-brand fs-4 text-white">ShopFusion</h1> */}
-        <h1 className="navbar-brand fs-18 custom-font text-white">ShopFusion</h1>
-
+        <h1 className="navbar-brand fs-4 custom-font text-white">ShopFusion</h1>
         <button
           className="navbar-toggler"
           type="button"
